@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DESIRING BEAUTY-ECommerce</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Playwrite+AU+SA:wght@100..400&display=swap");
+
+      body {
+        font-family: "Playwrite AU SA", serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        color: #333;
+        background: #dbb7b7;
+      }
+      header {
+        background: #c9b1b1;
+        padding: 1rem;
+        text-align: center;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        font-family: "Playwrite AU SA", serif;
+      }
+      nav {
+        margin: 1rem 0;
+      }
+      nav a {
+        margin: 0 1rem;
+        text-decoration: none;
+        color: #007bff;
+      }
+      .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 2rem;
+      }
+      .product {
+        background: #aea5a5c3;
+        border: 1px solid #cbb6b6;
+        border-radius: 10px;
+        padding: 1rem;
+        margin: 1rem;
+        width: 200px;
+        text-align: center;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      }
+      .product img {
+        width: 100%;
+        border-radius: 10px;
+      }
+      .footer {
+        text-align: center;
+        padding: 1rem;
+        background: #a48080;
+        box-shadow: 0 -2px 5px rgba(142, 15, 15, 0.1);
+      }
+    </style>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const buttons = document.querySelectorAll("button");
+        buttons.forEach((button) => {
+          button.addEventListener("click", function () {
+            alert("Product added to cart!");
+          });
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <header>
+      <h1>DESIRING BEAUTY ✨</h1>
+      <h5 align="center">💅IMITATION EARRINGS💅</h5>
+      <h5>A good outfit + Perfect jewellery makes you more confident👸</h5>
+      <nav>
+        <a href="#">Home</a>
+        <a href="#">Shop</a>
+        <a href="#">Contact</a>
+        <a href="#">About</a>
+      </nav>
+    </header>
+
+    <div class="container">
+      <div class="product">
+        <img
+          src="/E-COMMERCE/images/WhatsApp Image 2025-01-11 at 00.57.12_a1380b33.jpg"
+          alt="Product Image"
+        />
+        <h3>Sterling Silver Oxidised</h3>
+        <p>159/-</p>
+        <button>Add to Cart</button>
+      </div>
+
+      <div class="product">
+        <img
+          src="/E-COMMERCE/images/WhatsApp Image 2025-01-11 at 00.57.13_b015e3bf.jpg"
+          alt="Product Image"
+        />
+        <h3>Transparent Teardrop Hoop Earing</h3>
+        <p>69/-</p>
+        <button>Add to Cart</button>
+      </div>
+
+      <div class="product">
+        <img
+          src="/E-COMMERCE/images/WhatsApp Image 2025-01-11 at 01.03.43_70635a8d.jpg"
+          alt="Product Image"
+        />
+        <h3>Silver Plated Peacock Earing🦚</h3>
+        <p>159/-</p>
+        <button>Add to Cart</button>
+      </div>
+    </div>
+
+    <div class="footer">
+        <ol type="i" ALIGN="left">
+            <p>NOTE:-</p>
+            <li>NO RETURN❌</li>
+            <LI>NO EXCHANGE❌</LI>
+        </ol>
+      <p>&copy; 2025 DESIRING BEAUTY E-Commerce | All Rights Reserved</p>
+    </div>
+  </body>
+</html>
