@@ -1,0 +1,50 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #9293df;
+  }
+
+  h1 {
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 10px; /* Add padding for the rounded corner effect */
+    background-color: rgba(255, 255, 255, 0.5); /* Semi-transparent white background */
+    border-radius: 5px; /* Rounded corners */
+  }
+
+   
+  .h1, h2 {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    text-align: center;
+    color: #8e7f9e; 
+  }
+  .image-container {
+    flex-direction: column;
+    width: 500px; /* Adjust width as needed */
+    height: auto;
+    border-radius: 10px; /* Adjust corner radius as needed */
+    overflow: hidden;
+  }
+  
+  .image-container img {
+    width: 100%;
+    height: auto;
+  }
+
+  .container {
+    display: flex;
+    background-color: #fff; /* White background for the form */
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 350px; /* Adjust width as needed */
+  }
+  
+ 
+  
+  
